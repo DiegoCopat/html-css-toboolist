@@ -10,7 +10,27 @@ body {
 }
 
 /* comuni */
+.bottone {
+    padding: 5px;
+    border-radius: 5px;
+}
 
+.verde {
+    color: green;
+}
+
+.rosso {
+    color: red;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.margine-5 {
+    margin: 4px 0;
+}
 
 /* header  */
 header {
@@ -29,13 +49,77 @@ header {
 
 #logo-scritta {
     font-size: 50px;
+    font-weight: 800;
 }
 
 /* main  */
 main {
-    width: 70%;
-    height: 100px;
-    background-color: red;
-    margin: auto;
-    margin-top: 20px;
+    width: 60%;
+    height: auto;
+    margin: 50px auto ;
+}
+
+.bottone-blu {
+    background-color: #47ADF1;
+    color: white;
+    border: 0px solid #47ADF1;
+    margin-right: 2px;
+}
+.bottone-grigio {
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+.sezione {
+    margin: 40px 0;
+    font-size: 15px;
+}
+
+.editorial {
+    padding: 5px;
+    background-color: #47ADF1;
+    border-radius: 10px;
+    border: 0;
+    color: white; 
+}
+
+.q1 {
+    padding: 5px; 
+    background-color: #9C72E4;
+    border-radius: 10px; 
+    border: 0;
+    color: white;
+}
+
+.recruiting {
+    padding: 5px; 
+    background-color: #64C0A9;
+    border-radius: 10px; 
+    border: 0;
+    color: white;
+}
+
+.mobile {
+    padding: 5px; 
+    background-color: #F29E33;
+    border-radius: 10px; 
+    border: 0;
+    color: white; 
+}
+
+.website {
+    padding: 5px; 
+    background-color: #D863A1;
+    border-radius: 10px; 
+    border: 0;
+    color: white; 
+}
+
+.sales {
+    padding: 5px; 
+    background-color: #B0C926;
+    border-radius: 10px; 
+    border: 0;
+    color: white; 
 }
