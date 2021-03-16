@@ -1,0 +1,41 @@
+/* body */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+/* comuni */
+
+
+/* header  */
+header {
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#logo, #logo-scritta {
+    vertical-align: middle;
+}
+#logo {
+    height: 100%;
+}
+
+#logo-scritta {
+    font-size: 50px;
+}
+
+/* main  */
+main {
+    width: 70%;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    margin-top: 20px;
+}
