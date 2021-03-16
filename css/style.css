@@ -34,12 +34,14 @@ h2 {
 
 /* header  */
 header {
-    background-color: white;
     height: 100px;
     padding: 20px;
     margin-left: 20px;
 }
 
+ header, .bottone-grigio {
+     background-color: white;
+ }
 #logo, #logo-scritta {
     vertical-align: middle;
 }
@@ -55,7 +57,6 @@ header {
 /* main  */
 main {
     width: 60%;
-    height: auto;
     margin: 50px auto ;
 }
 
@@ -68,58 +69,41 @@ main {
 .bottone-grigio {
     color: lightgrey;
     border: 1px solid lightgrey;
-    background-color: white;
 }
 
+/* sezione speciale con molti bottoni */
 .sezione {
     margin: 40px 0;
     font-size: 15px;
 }
 
-.editorial {
+.editorial, .q1, .recruiting, .mobile, .website, .sales {
     padding: 5px;
-    background-color: #47ADF1;
     border-radius: 10px;
     border: 0;
     color: white; 
 }
+.editorial {
+
+    background-color: #47ADF1;
+}
 
 .q1 {
-    padding: 5px; 
     background-color: #9C72E4;
-    border-radius: 10px; 
-    border: 0;
-    color: white;
 }
 
 .recruiting {
-    padding: 5px; 
     background-color: #64C0A9;
-    border-radius: 10px; 
-    border: 0;
-    color: white;
 }
 
 .mobile {
-    padding: 5px; 
     background-color: #F29E33;
-    border-radius: 10px; 
-    border: 0;
-    color: white; 
 }
 
 .website {
-    padding: 5px; 
     background-color: #D863A1;
-    border-radius: 10px; 
-    border: 0;
-    color: white; 
 }
 
 .sales {
-    padding: 5px; 
     background-color: #B0C926;
-    border-radius: 10px; 
-    border: 0;
-    color: white; 
 }
